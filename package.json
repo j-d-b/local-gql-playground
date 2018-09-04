@@ -1,0 +1,13 @@
+{
+  "name": "local-gql-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "graphql-playground-middleware-express": "^1.7.3"
+  }
+}
