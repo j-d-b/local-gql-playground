@@ -14,7 +14,7 @@ rl.question(chalk.yellow('Enter GraphQL endpoint URL: '), (input) => {
 
   app.use('/playground', expressPlayground( { endpoint: input }));
 
-  app.listen(5000, () => console.log(chalk.green('Playground ready at http://localhost:5000/playground')));
+  app.listen(5000, () => console.log(chalk.green('💫  Playground ready at http://localhost:5000/playground')));
 
   opn('http://localhost:5000/playground');
 });
